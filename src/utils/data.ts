@@ -125,3 +125,21 @@ export const skillsData = [
     img: "/cpp-icon.png",
   },
 ]
+
+export const EducationalData = [
+  {
+    label: "Metriculation",
+    year: "2019",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+  },
+  {
+    label: "Intermediate",
+    year: "2021",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+  },
+  {
+    label: "Graduation",
+    year: "2021 - continued",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+  },
+]

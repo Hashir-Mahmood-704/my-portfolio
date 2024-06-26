@@ -2,6 +2,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import { skillsData } from "../utils/data"
+import { motion } from "framer-motion"
 
 const SkillsSlider = () => {
   const settings = {
@@ -42,15 +43,24 @@ const SkillsSlider = () => {
   }
 
   return (
-    <div className="my-[100px]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1, delay: 0.2 }}
+      className="my-[100px]"
+    >
       <Slider {...settings}>
         {skillsData.map((item, index) => (
           <div className="" key={index}>
-            <img src={item.img} alt="image" className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] mx-auto" />
+            <img
+              src={item.img}
+              alt="image"
+              className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] mx-auto"
+            />
           </div>
         ))}
       </Slider>
-    </div>
+    </motion.div>
   )
 }
 
