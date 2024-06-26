@@ -11,7 +11,12 @@ import { AnimatePresence, motion } from "framer-motion"
 const MobileNavigation = () => {
   const [navCoverOpen, setNavCoverOpen] = useState(false)
   return (
-    <div className="lg:hidden fixed z-[100] right-[10px] top-[20px] bg-gray-400/20 rounded-[6px] text-heading_color p-[7px]">
+    <motion.div
+      initial={{ x: 100 }}
+      animate={{ x: 0 }}
+      transition={{ duration: 0.7 }}
+      className="lg:hidden fixed z-[100] right-[10px] top-[20px] bg-gray-400/20 rounded-[6px] text-heading_color p-[7px]"
+    >
       <FiMenu size={25} onClick={() => setNavCoverOpen(true)} />
       <AnimatePresence>
         {navCoverOpen && (
@@ -93,7 +98,7 @@ const MobileNavigation = () => {
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   )
 }
 

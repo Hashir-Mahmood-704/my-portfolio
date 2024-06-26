@@ -6,7 +6,7 @@ const SpecialButton = ({
   icon: JSX.Element
 }) => {
   return (
-    <div className="group flex items-center gap-[20px] border border-main_color pl-[35px] rounded-[30px]  relative overflow-hidden">
+    <div className="cursor-pointer group flex items-center gap-[20px] border border-main_color pl-[35px] rounded-[30px]  relative overflow-hidden">
       <span className="z-20 group-hover:text-white text-text_color transition-all ease-in-out duration-[0.5s] ">
         {label}
       </span>

@@ -6,11 +6,16 @@ const Home = () => {
   return (
     <div className="h-screen bg-body_color flex items-center justify-center relative overflow-hidden transition-all duration-[0.6s] ease-in-out">
       {/* color block */}
-      <div className="hidden lg:block bg-main_color absolute top-[-200px] lg:left-[-220px] 2xl:left-[-150px] h-[200%] w-[500px] rotate-[-15deg]" />
+      <motion.div
+        initial={{ opacity: 0, rotate: "0deg" }}
+        animate={{ opacity: 1, x: 0, rotate: "-15deg" }}
+        transition={{ duration: 0.8 }}
+        className="hidden lg:block bg-main_color absolute top-[-200px] lg:left-[-220px] 2xl:left-[-150px] h-[200%] w-[500px]"
+      />
 
       {/* texts */}
       <motion.div
-        initial={{ opacity: 0, y: 80 }} 
+        initial={{ opacity: 0, y: 80 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
         className="flex flex-col items-center max-w-[600px]"
@@ -28,12 +33,16 @@ const Home = () => {
           exellent software that improves the lives of those around me.
         </p>
 
-        <div className="mt-[40px] lg:mt-[30px]">
+        <motion.div
+          animate={{ y: [0, 20, 0, 20, 0] }}
+          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          className="mt-[40px] lg:mt-[30px]"
+        >
           <SpecialButton
             label="More about me"
             icon={<FaArrowRight size={20} />}
           />
-        </div>
+        </motion.div>
       </motion.div>
     </div>
   )
