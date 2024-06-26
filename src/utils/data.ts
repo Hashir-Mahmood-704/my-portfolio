@@ -9,6 +9,13 @@ import Theme8 from "../assets/orange.png"
 import Theme9 from "../assets/green.png"
 import Theme10 from "../assets/yellow.png"
 
+import Project1Image from "../assets/project-1.jpeg"
+import Project2Image from "../assets/project-2.jpg"
+import Project3Image from "../assets/project-3.jpeg"
+import Project4Image from "../assets/project-4.jpeg"
+import Project5Image from "../assets/project-5.jpg"
+import Project6Image from "../assets/project-6.jpg"
+
 export const themes = [
   {
     id: 1,
@@ -141,5 +148,50 @@ export const EducationalData = [
     label: "Graduation",
     year: "2021 - continued",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+  },
+]
+
+export const ProjectsData = [
+  {
+    title: "Ecommerce app",
+    img: Project1Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
+  },
+  {
+    title: "Social media app",
+    img: Project2Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
+  },
+  {
+    title: "Gym app",
+    img: Project3Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
+  },
+  {
+    title: "Super Nova app",
+    img: Project4Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
+  },
+  {
+    title: "Wingle app",
+    img: Project5Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
+  },
+  {
+    title: "Portfolio app",
+    img: Project6Image,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
+    url: "www.vercel-app.com",
   },
 ]
