@@ -1,5 +1,5 @@
 import Skills from "../components/Skills"
-
+import SkillsSlider from "../components/SkillsSlider"
 const About = () => {
   return (
     <div className="bg-body_color border border-body_color transition-all duration-[0.6s] ease-in-out">
@@ -11,6 +11,8 @@ const About = () => {
 
         <Skills />
       </div>
+
+      <SkillsSlider />
     </div>
   )
 }

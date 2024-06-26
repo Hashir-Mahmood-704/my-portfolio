@@ -7,7 +7,7 @@ const Skills = () => {
         My Skills
       </h3>
 
-      <div className="flex flex-wrap justify-center gap-[40px] lg:gap-[80px] mt-[25px] lg:mt-[50px]">
+      <div className="flex flex-wrap justify-center gap-[40px] lg:gap-[60px] mt-[25px] lg:mt-[50px]">
         {skillsData.map((item, index) => (
           <div
             key={index}
@@ -18,7 +18,7 @@ const Skills = () => {
               alt="image"
               className="w-[70px] h-[70px] lg:w-[80px] lg:h-[80px] object-cover"
             />
-            <p className="text-main_color font-semibold text-[14px] lg:text-[16px] transition-all duration-[0.6s] ease-in-out">
+            <p className="text-text_color font-medium text-[14px] lg:text-[16px] transition-all duration-[0.6s] ease-in-out">
               {item.label}
             </p>
           </div>
