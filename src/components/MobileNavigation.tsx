@@ -24,7 +24,7 @@ const MobileNavigation = () => {
             initial={{ x: -600 }}
             animate={{ x: 0 }}
             exit={{ x: -600 }}
-            transition={{ duration: 0.6, ease: "circInOut" }}
+            transition={{ duration: 0.6 }}
             className="h-screen bg-border_color z-[100] fixed w-full top-0 left-0"
           >
             <div className="relative min-h-full w-full px-[25px] border border-border_color">

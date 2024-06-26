@@ -70,3 +70,58 @@ export const themes = [
     color: "hsl(42, 100%, 50%)",
   },
 ]
+
+export const skillsData = [
+  {
+    label: "HTML",
+    img: "/html.png",
+  },
+  {
+    label: "CSS",
+    img: "/css-icon.png",
+  },
+  {
+    label: "JavaScript",
+    img: "/js-icon.png",
+  },
+  {
+    label: "TypeScript",
+    img: "/ts-icon.png",
+  },
+  {
+    label: "React",
+    img: "/react-icon.png",
+  },
+  {
+    label: "Tailwind CSS",
+    img: "/tailwind-icon.png",
+  },
+  {
+    label: "Redux Toolkit",
+    img: "/redux-icon.png",
+  },
+  {
+    label: "Next JS",
+    img: "/nextjs-icon.png",
+  },
+  {
+    label: "MySQL",
+    img: "/sql-icon.png",
+  },
+  {
+    label: "Python",
+    img: "/python.png",
+  },
+  {
+    label: "Sanity io",
+    img: "/sanity-icon.png",
+  },
+  {
+    label: "C",
+    img: "/c-icon.png",
+  },
+  {
+    label: "C++",
+    img: "/cpp-icon.png",
+  },
+]
