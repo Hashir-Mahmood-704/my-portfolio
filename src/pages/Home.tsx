@@ -1,6 +1,7 @@
 import SpecialButton from "../components/SpecialButton"
 import { FaArrowRight } from "react-icons/fa6"
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom"
 
 const Home = () => {
   return (
@@ -33,16 +34,18 @@ const Home = () => {
           exellent software that improves the lives of those around me.
         </p>
 
-        <motion.div
-          animate={{ y: [0, 20, 0, 20, 0] }}
-          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-          className="mt-[40px] lg:mt-[30px]"
-        >
-          <SpecialButton
-            label="More about me"
-            icon={<FaArrowRight size={20} />}
-          />
-        </motion.div>
+        <Link to="/about">
+          <motion.div
+            animate={{ y: [0, 20, 0, 20, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+            className="mt-[40px] lg:mt-[30px]"
+          >
+            <SpecialButton
+              label="More about me"
+              icon={<FaArrowRight size={20} />}
+            />
+          </motion.div>
+        </Link>
       </motion.div>
     </div>
   )

@@ -99,14 +99,14 @@ const ProjectItem = ({
 const Projects = () => {
   return (
     <div className="bg-body_color border border-body_color min-h-screen transition-all duration-[0.6s] ease-in-out ">
-      <div className="w-[1200px] mx-auto ">
+      <div className="max-w-[1200px] mx-auto ">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           className="max-w-[1200px] mx-auto"
         >
-          <h1 className="text-[45px] lg:text-[60px] font-bold text-heading_color text-center mt-[50px] transition-all duration-[0.6s] ease-in-out">
+          <h1 className="text-[45px] lg:text-[60px] font-bold text-heading_color text-center mt-[50px] transition-all duration-[0.6s] ease-in-out ">
             My <span className="text-main_color">Projects</span>
           </h1>
 

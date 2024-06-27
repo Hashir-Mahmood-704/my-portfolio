@@ -2,11 +2,17 @@ import { FaEnvelopeOpen } from "react-icons/fa"
 import { BsLinkedin } from "react-icons/bs"
 import SpecialButton from "../components/SpecialButton"
 import { IoIosSend } from "react-icons/io"
+import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
     <div className="bg-body_color min-h-screen border border-body_color transition-all duration-[0.6s] ease-in-out">
-      <div className="max-w-[1200px] mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 80 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="max-w-[1200px] mx-auto"
+      >
         <h1 className="text-[45px] lg:text-[60px] font-bold text-heading_color text-center mt-[50px] transition-all duration-[0.6s] ease-in-out">
           Get In <span className="text-main_color">Touch</span>
         </h1>
@@ -76,7 +82,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
