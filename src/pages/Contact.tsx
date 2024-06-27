@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Contact = () => {
   return (
-    <div className="bg-body_color min-h-screen border border-body_color transition-all duration-[0.6s] ease-in-out">
+    <div className="pb-[50px]  bg-body_color min-h-screen border border-body_color transition-all duration-[0.6s] ease-in-out">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ y: 0, opacity: 1 }}

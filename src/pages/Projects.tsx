@@ -98,7 +98,7 @@ const ProjectItem = ({
 
 const Projects = () => {
   return (
-    <div className="bg-body_color border border-body_color min-h-screen transition-all duration-[0.6s] ease-in-out ">
+    <div className="pb-[50px] bg-body_color border border-body_color min-h-screen transition-all duration-[0.6s] ease-in-out ">
       <div className="max-w-[1200px] mx-auto ">
         <motion.div
           initial={{ opacity: 0, y: 80 }}
