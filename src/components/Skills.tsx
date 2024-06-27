@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 const Skills = () => {
   return (
     <div className="mb-[50px]">
-      <h3 className="text-heading_color font-medium text-[25px] lg:text-[30px] mt-[50px]  ml-[30px] lg:ml-0">
+      <h3 className="text-heading_color font-medium text-[25px] lg:text-[30px] mt-[50px]  ml-[30px] lg:ml-0 transition-all duration-[0.6s] ease-in-out">
         My Skills
       </h3>
 
@@ -12,9 +12,8 @@ const Skills = () => {
         {skillsData.map((item, index) => (
           <motion.div
             whileHover={{ scale: 1.2 }}
-            // transition={{ type: "spring", duration: 0.1 }}
             key={index}
-            className="flex cursor-pointer flex-col justify-center items-center gap-[5px] skills-shadow rounded-[10px] w-[125px] h-[130px]"
+            className="flex cursor-pointer transition-all duration-[0.6s] ease-in-out flex-col justify-center items-center gap-[5px] skills-shadow rounded-[10px] w-[125px] h-[130px]"
           >
             <img
               src={item.img}

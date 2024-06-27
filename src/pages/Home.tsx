@@ -27,7 +27,7 @@ const Home = () => {
           A Web Developer
         </span>
 
-        <p className="text-text_color text-justify leading-[25px] lg:leading-[35px] lg:tracking-[2px] mt-[15px] text-[14px] lg:text-[16px] px-[25px]">
+        <p className="text-text_color text-justify leading-[25px] lg:leading-[35px] lg:tracking-[2px] mt-[15px] text-[14px] lg:text-[16px] px-[25px] transition-all duration-[0.6s] ease-in-out">
           I am a Pakistan based front-end web developer focused on crafting
           clean & user-friendly experiences, I am passionate about building
           exellent software that improves the lives of those around me.
