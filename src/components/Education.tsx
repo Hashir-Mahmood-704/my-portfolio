@@ -3,7 +3,7 @@ import { MdSchool } from "react-icons/md"
 import { motion } from "framer-motion"
 import SpecialButton from "../components/SpecialButton"
 import { IoMdCloudDownload } from "react-icons/io"
-import Resume from "../assets/hashir-res.pdf"
+import Resume from "../assets/hashir-resume.pdf"
 
 const Education = () => {
   return (
