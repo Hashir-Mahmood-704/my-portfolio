@@ -42,12 +42,12 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <a href="https://www.linkedin.com/in/hashir-mahmood/">
               <SpecialButton
                 label="To my LinkedIn"
                 icon={<BsLinkedin size={15} />}
               />
-            </div>
+            </a>
           </div>
 
           {/* right */}

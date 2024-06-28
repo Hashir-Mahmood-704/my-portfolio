@@ -13,7 +13,7 @@ const Skills = () => {
           <motion.div
             whileHover={{ scale: 1.2 }}
             key={index}
-            className="flex cursor-pointer transition-all duration-[0.6s] ease-in-out flex-col justify-center items-center gap-[5px] skills-shadow rounded-[10px] w-[125px] h-[130px]"
+            className="flex cursor-pointer  flex-col justify-center items-center gap-[5px] skills-shadow rounded-[10px] w-[125px] h-[130px]"
           >
             <img
               src={item.img}

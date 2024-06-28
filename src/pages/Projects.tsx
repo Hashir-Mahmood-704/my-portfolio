@@ -36,26 +36,31 @@ const ProjectItem = ({
             animate={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
             exit={{ opacity: 0 }}
-            onClick={() => setOpenProjectCover(false)}
+            onClick={() => {
+              setOpenProjectCover(false)
+              console.log("Hashir")
+            }}
             className="fixed top-0 left-0 bg-black/70 z-[100] w-screen h-screen flex justify-center items-center"
           >
             <motion.div
               initial={{ scale: 0 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.4, type: "spring", stiffness: 80 }}
-              exit={{ scale: 0, opacity: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ duration: 0.4, type: "spring", stiffness: 50 }}
+              exit={{ scale: 0 }}
               onClick={(e) => e.stopPropagation()}
               className="w-[340px] sm:w-[550px] p-[15px] sm:p-[20px]  bg-container_color rounded-[10px] overflow-hidden relative"
             >
-              <p className="text-main_color text-center text-[25px] sm:text-[30px] font-semibold">
+              <p className="text-main_color text-center text-[20px] sm:text-[30px] font-semibold w-[90%]">
                 {title}
               </p>
               <div className="flex flex-col items-start mt-[20px] text-text_color">
                 <p className="text-[18px] font-medium text-heading_color">
                   Tools:
                 </p>
-                {techs.map((item) => (
-                  <li className="list-disc">{item}</li>
+                {techs.map((item, key) => (
+                  <li key={key} className="list-disc">
+                    {item}
+                  </li>
                 ))}
               </div>
               <p className="text-[18px] font-medium text-heading_color mt-[15px]">
@@ -68,14 +73,14 @@ const ProjectItem = ({
                 URL:
               </p>
               <motion.a
-                href="#"
+                href={url}
                 className="text-left text-[14px] text-text_color mt-[5px]"
               >
                 <motion.p whileHover={{ x: 20 }}>{url}</motion.p>
               </motion.a>
-              <a href="https://www.google.com">
+              <a href={url}>
                 <motion.img
-                  whileHover={{ y: -50 }}
+                  whileHover={{ y: -10 }}
                   src={img}
                   alt="img"
                   className="w-full h-[200px] sm:h-[250px] object-cover mt-[20px] rounded-[10px]"

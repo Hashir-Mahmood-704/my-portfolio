@@ -9,12 +9,12 @@ import Theme8 from "../assets/orange.png"
 import Theme9 from "../assets/green.png"
 import Theme10 from "../assets/yellow.png"
 
-import Project1Image from "../assets/project-1.jpeg"
-import Project2Image from "../assets/project-2.jpg"
-import Project3Image from "../assets/project-3.jpeg"
-import Project4Image from "../assets/project-4.jpeg"
-import Project5Image from "../assets/project-5.jpg"
-import Project6Image from "../assets/project-6.jpg"
+import Kate from "../assets/kate.png"
+import Ecommerce from "../assets/ecommerce.png"
+import Gym from "../assets/gym.png"
+import Wingle from "../assets/wingle.png"
+import Nova from "../assets/nova.png"
+import Portfolio from "../assets/portfolio.png"
 
 export const themes = [
   {
@@ -135,63 +135,63 @@ export const skillsData = [
 
 export const EducationalData = [
   {
-    label: "Metriculation",
+    label: "Matriculation",
     year: "2019",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    desc: "I completed my matriculation in 2019 from Dar e Arqam Schools, Lahore and scored 90%",
   },
   {
     label: "Intermediate",
     year: "2021",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    desc: "I completed my Intermediate in 2021 from Punjab Group of Colleges, Lahore.",
   },
   {
     label: "Graduation",
     year: "2021 - continued",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
+    desc: "I am currently a student of Bachelor of Science Computer Science (BSCS), at University of Central Punjab",
   },
 ]
 
 export const ProjectsData = [
   {
-    title: "Ecommerce app",
-    img: Project1Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    title: "Computer Accessories Store",
+    img: Nova,
+    desc: "A fully responsive e-commerce store for computer accessories, featuring secure authentication and a sleek design.",
+    techs: ["Next JS", "Tailwind CSS", "MongoDB", "Next Auth"],
+    url: "https://project-supernova.vercel.app/",
   },
   {
     title: "Social media app",
-    img: Project2Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    img: Wingle,
+    desc: "A social media platform that allows users to connect, share posts, and interact with others seamlessly.",
+    techs: ["Next JS", "Tailwind CSS", "MongoDB", "Clerk Auth"],
+    url: "https://tweeter-clone-ten.vercel.app/",
   },
   {
     title: "Gym app",
-    img: Project3Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    img: Gym,
+    desc: "A user-friendly gym application with dynamic animations, helping users track their workouts and progress.",
+    techs: ["React JS", "Tailwind CSS", "Framer motion"],
+    url: "https://gym-app-beryl.vercel.app/",
   },
   {
-    title: "Super Nova app",
-    img: Project4Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    title: "Clothing Ecommerce Store",
+    img: Ecommerce,
+    desc: "An online store for clothing, offering a smooth shopping experience with powerful state management and content delivery.",
+    techs: ["React JS", "Redux Toolkit", "Tailwind CSS", "Sanity io"],
+    url: "https://ecommerce-app-mu-five.vercel.app/",
   },
   {
-    title: "Wingle app",
-    img: Project5Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    title: "Sanity based Social media app",
+    img: Kate,
+    desc: "A social media application built on Sanity, providing a robust platform for content creation and sharing.",
+    techs: ["React JS", "Tailwind CSS", "Sanity io"],
+    url: "https://kate-app.vercel.app/",
   },
   {
-    title: "Portfolio app",
-    img: Project6Image,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta illo non tempora laudantium optio ab iusto nisi temp",
-    techs: ["React JS", "Tailwind CSS", "Redux Toolkit"],
-    url: "www.vercel-app.com",
+    title: "My Portfolio",
+    img: Portfolio,
+    desc: "A personal portfolio showcasing my projects and skills, with smooth animations and a modern design.",
+    techs: ["React JS", "Tailwind CSS", "Framer motion"],
+    url: "https://hashir-portfolio-sepia.vercel.app/",
   },
 ]

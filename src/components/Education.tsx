@@ -3,6 +3,7 @@ import { MdSchool } from "react-icons/md"
 import { motion } from "framer-motion"
 import SpecialButton from "../components/SpecialButton"
 import { IoMdCloudDownload } from "react-icons/io"
+import Resume from "../assets/hashir-res.pdf"
 
 const Education = () => {
   return (
@@ -34,12 +35,16 @@ const Education = () => {
         ))}
       </div>
 
-      <div className="w-fit mx-auto my-[50px]">
+      <a
+        href={Resume}
+        download={true}
+        className="w-fit mx-auto my-[50px] block"
+      >
         <SpecialButton
           label="Download Resume"
           icon={<IoMdCloudDownload size={20} />}
         />
-      </div>
+      </a>
     </motion.div>
   )
 }
