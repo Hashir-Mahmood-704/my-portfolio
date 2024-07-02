@@ -156,7 +156,7 @@ export const ProjectsData = [
     title: "Computer Accessories Store",
     img: Nova,
     desc: "A fully responsive e-commerce store for computer accessories, featuring secure authentication and a sleek design.",
-    techs: ["Next JS", "Tailwind CSS", "MongoDB", "Next Auth"],
+    techs: ["Next JS", "Tailwind CSS", "MongoDB", "Sanity io", "Next Auth"],
     url: "https://project-supernova.vercel.app/",
   },
   {

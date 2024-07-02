@@ -21,7 +21,7 @@ const Navigation = () => {
       >
         <FaHouse size={22} />
         <p className="z-[-1] absolute right-[50%] rounded-l-full flex items-center justify-center  top-[50%] translate-y-[-50%] text-white w-[0px] group-hover:w-[120px] opacity-0 group-hover:opacity-100 duration-[0.6s] transition-all ease-in-out h-full bg-main_color">
-          Projects
+          Home
         </p>
       </NavLink>
 
