@@ -4,6 +4,7 @@ import { IoPerson } from "react-icons/io5"
 import { NavLink } from "react-router-dom"
 import { motion } from "framer-motion"
 const Navigation = () => {
+  // const
   return (
     <motion.div
       initial={{ x: 100, y: -150 }}
